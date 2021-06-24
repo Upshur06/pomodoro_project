@@ -25,3 +25,10 @@ navLinks.forEach((navItem, i)=>{
         })
     })
 })
+
+const settingsContainer = document.getElementById('settingscontainer');
+
+document.querySelector('#settings > img').addEventListener('click', ()=>{
+    settingsContainer.style.visibility = 'visible';
+    settingsContainer.style.opacity = 1;
+})
