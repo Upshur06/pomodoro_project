@@ -12,7 +12,6 @@ const action = (action = "stop")=>{
     }
 }
 
-
 const navLinks = document.querySelectorAll('.nav > ul > li');
 const navBg = document.getElementById('indicator');
 
