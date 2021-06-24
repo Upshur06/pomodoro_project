@@ -5,7 +5,7 @@ let settings =  {
     font : "Kumbh Sans",
     color : 'orange',
 };
-
+ 
 let settingsDefualt =  {
     promodoro : 25,
     shortbreak : 5,
@@ -40,7 +40,7 @@ const updateSettings = () => {
     circle.style.stroke = `var(--${settings.color})`;
     document.body.style.fontFamily = settings.font;
 
-    timer.promodoro = settings.promodoro;    
+    timer.pomodoro = settings.pomodoro;    
     timer.shortbreak = settings.shortbreak;
     timer.longbreak = settings.longbreak;  
     
